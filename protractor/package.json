@@ -1,0 +1,20 @@
+{
+  "name": "protractor-amex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "protractor": "5.0.0"
+  },
+  "dependencies": {
+    "https-proxy-agent": "^1.0.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.0.0",
+    "protractor-jasmine2-html-reporter": "^0.0.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/protractor conf.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
