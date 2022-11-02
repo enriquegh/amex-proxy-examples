@@ -1,3 +1,6 @@
+require('global-agent/bootstrap')
+process.env.GLOBAL_AGENT_HTTP_PROXY = 'http://127.0.0.1:8889'
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 exports.config = {
 
     /**
